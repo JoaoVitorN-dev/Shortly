@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu > h2{
+    font-size: 35px;
+}
+
+nav > .menu > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu > ul > li{
+    font-size: 18px;
+    color: hsl(257, 7%, 63%);
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.menu > ul > li:hover{
+    cursor: pointer;
+}
+
+nav > .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav > .login > button{
+    border: none;
+    background-color: #FFF;
+    font-size: 16px;
+    color: hsl(257, 7%, 63%);
+    font-weight: 600;
+}
+
+nav > .login > button > span{
+    font-size: 14px;
+    background-color: hsl(180, 66%, 49%);
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav > .login > button:hover{
+    cursor: pointer;
+}
