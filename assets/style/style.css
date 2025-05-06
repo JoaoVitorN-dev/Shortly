@@ -6,7 +6,7 @@ body{
 header > nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 20px 130px;
 }
 
 .menu{
@@ -58,5 +58,47 @@ nav > .login > button > span{
 }
 
 nav > .login > button:hover{
+    cursor: pointer;
+}
+
+.container{
+    padding-left: 130px;
+}
+
+.container > .bodyText{
+    margin-top: 50px;
+    width: 620px;
+}
+
+.card{
+    display: flex;
+}
+
+.bodyText > .title > h1{
+    font-size: 80px;
+    margin-bottom: 0px;
+    line-height: 80px;
+}
+
+.bodyText > .description{
+    margin-top: 10px;
+    width: 500px;
+}
+
+.bodyText > .description > h2{
+    margin-top: 0px;
+}
+
+.bodyText > .btn > button{
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.bodyText > .btn > button:hover{
     cursor: pointer;
 }
