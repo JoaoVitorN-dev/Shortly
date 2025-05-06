@@ -62,7 +62,7 @@ nav > .login > button:hover{
 }
 
 .container{
-    padding-left: 130px;
+    margin-left: 130px;
 }
 
 .container > .bodyText{
@@ -101,4 +101,52 @@ nav > .login > button:hover{
 
 .bodyText > .btn > button:hover{
     cursor: pointer;
+}
+
+.container > .inputUrl{
+    background-color: hsl(257, 27%, 26%);
+    background-image: url('../../images/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.inputUrl > .formInput{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inputUrl > .formInput > input{
+    height: 44px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.inputUrl > .formInput > button{
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: #FFF;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.inputUrl > .formInput > button:hover{
+    cursor: pointer;
+}
+
+#statics{
+    background-color: #eff1f7;
+    min-height: 600px;
+}
+
+#statics > .container > .text{
+    margin: 0px auto;
+    text-align: center;
 }
